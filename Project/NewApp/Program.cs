@@ -26,6 +26,7 @@ Console.WriteLine(e);
 Console.WriteLine(f);
 Console.WriteLine(g);
 Console.WriteLine(h);
+//TH chuyen doi kieu du lieu + cac phep tinh toan"
 int a1, a2;
 System.Console.Write(" a1 = ");
 a1 = Convert.ToInt32(Console.ReadLine());
@@ -37,3 +38,17 @@ System.Console.WriteLine("Hieu cua hai so: {0} - {1} = {2}", a1, a2 , a1 - a2);
 System.Console.WriteLine("Tich cua hai so: {0} * {1} = {2}", a1, a2 , a1 * a2);
 System.Console.WriteLine("Ket qua cua phep chia lay phan du: {0} % {1} = {2}",a1, a2, x);
 System.Console.WriteLine("Ket qua cua phep chia lay phan nguyên: {0} / {1} = {2}",a1, a2, y);
+//TH Cac toan tu trong C#
+int b1, b2;
+System.Console.Write(" b1 = ");
+b1 = Convert.ToInt32(Console.ReadLine());
+System.Console.Write(" b2 = ");
+b2 = Convert.ToInt32(Console.ReadLine());
+if( b1 < b2)
+{
+   System.Console.WriteLine("{0} nho hon {1}", b1, b2);
+}else if(b1 > b2){
+    System.Console.WriteLine("{0} lon hon {1}", b1, b2);
+}else{
+    System.Console.WriteLine("Hai so nhap vao bang nhau!");
+}
